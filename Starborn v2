@@ -11,7 +11,7 @@ RaceList["starborn"] = {
 	size : 3, 
 	speed : { walk : { spd : 30, enc : 20 },  },
 	languageProfs : [1, "Celestial"], 
-	vision : [["Darkvision", 60],f 2; 
+	vision : [["Darkvision", 60],
 	dmgres : ["Cold"],  
 		text : ["Resistant to cold climates"], 
 	},
