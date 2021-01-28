@@ -11,7 +11,7 @@ RaceList["starborn"] = {
 	size : 3, 
 	speed : { walk : { spd : 30, enc : 20 },  },
 	languageProfs : [1, "Celestial"], 
-	vision : [["Darkvision", 60],
+	vision : ["Darkvision", 60],
 	dmgres : ["Cold"],  
 		text : ["Resistant to cold climates"], 
 	},
@@ -22,7 +22,7 @@ RaceList["starborn"] = {
 	weight : " weigh around 40 to 60 lb ", 
 	improvements : "Starborn: +1 Wisdonm, +2 Charisma;", 
 	scores : [0, 0, 0, 0, 1, 2], 
-	trait : "Starborn (+1 Wisdom, +2 Charisma)\nAstral Heritage:\n   I know the Druidcraft cantrip.\n   Once I reach 3rd level, I can cast Amor of Agathys as a lvl 2 spell once per long rest.\n,  Once I reach 5th level, I can cast Pass Without Trace once per long rest.", 
+	trait : "Starborn (+1 Wisdom, +2 Charisma)\n Astral Heritage:\n   I know the Druidcraft cantrip.\n   Once I reach 3rd level, I can cast Amor of Agathys as a lvl 2 spell once per long rest.\n,  Once I reach 5th level, I can cast Pass Without Trace once per long rest.", 
 	spellcastingAbility : 6, 
 		name : "Astral Heritage",
 		spells : ["druidcraft"],  
@@ -35,17 +35,15 @@ RaceList["starborn"] = {
 	},
 
 	features : { 
-
 		"armor of agathys" : 
 			name : "Armor of Agathys", 
 			minlevel : 3, 
 			usages : 1, 
 			recovery : "long rest", 
 			tooltip : " (Astral Heritage)", 
-			action : ["action", ""],me" 
+			action : ["action", ""], 
       },
         "pass without trace" : { 
-
 			name : "Pass Without Trace", 
 			minlevel : 5, 
 			usages : 1, 
@@ -54,7 +52,7 @@ RaceList["starborn"] = {
 			action : ["action", ""], 
 			},
 
-			dmgres : ["Cold"],ks,  
+			dmgres : ["Cold"], 
 
 		
 };
