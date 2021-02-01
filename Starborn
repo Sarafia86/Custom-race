@@ -5,8 +5,8 @@ SourceList["Hb:LSB"] = {
 	name : "Homebrew: Luck starborn",
 	abbreviation : "HB:LSB",
 	group : "Luck Homebrew",
-	url : "https://media.wizards.com/2017/dnd/downloads/UA_FiendishOptions.pdf",
-	date : "2017/10/09"
+	url : "none",
+	date : "2021/02/01"
 };
 
 if (!RaceList["starbon"]) 
