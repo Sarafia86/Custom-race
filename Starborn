@@ -25,11 +25,12 @@ if (!RaceList["starbon"])
 		languageProfs : ["Common", "Celestial"],
 		vision : [["Darkvision", 60]],
 		dmgres : ["Cold"],
+    Skill : ["Nature"],
 		age : " reach adulthood at the same rate as humans. But do not die of old age",
 		height : " range from 4 to 5ft7 feet tall ",
 		weight : " weigh extremely light",
 		scores : [0, 0, 0, 0, 1, 2],
-		trait : "Starborn (+1 Wisdom, +2 Charisma)\n\nAstral Heritage:\n   I know the Druidcraft cantrip.\n   At 3rd level, I can cast the Armor of Agathys spell once per long rest as a 2nd-level spell.\n   At 5th level, I can also cast thePass without Trace spell once per long rest.\n   Charisma is my spellcasting ability for these spells.",
+    trait : "Starborn (+1 Wisdom, +2 Charisma)\n\nAstral Heritage:\n   I have proficiency in the Nature skill:\n	 know the Druidcraft cantrip.\n   At 3rd level, I can cast the Armor of Agathys spell once per long rest as a 2nd-level spell.\n   At 5th level, I can also cast thePass without Trace spell once per long rest.\n   Charisma is my spellcasting ability for these spells.",
 		abilitySave : 6,
 		spellcastingAbility : 6,
 		spellcastingBonus : {
