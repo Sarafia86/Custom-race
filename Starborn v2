@@ -64,6 +64,6 @@ RaceList["starborn"] = {
 			},
 
 			dmgres : ["Cold"], 
-
-		
+	},
+	}
 };
