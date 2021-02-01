@@ -2,11 +2,20 @@
 var iFileName = "Starborn.js"; 
 RequiredSheetVersion(12.999); 
 
+// Define the source
+SourceList["HB:LSB"] = {
+	name : "Homebrew: Luck starborn",
+	abbreviation : "HB:LSB",
+	group : "Luck Homebrew",
+	url : "none",
+	date : "2021/02/01",
+};
+
 RaceList["starborn"] = { 
 	regExpSearch : /starborn/i, 
 	name : "Starborn", 
 	sortname : "Starborn", 
-	source : ["HB", 1], 
+  source : ["HB:LSB", 1], 
 	plural : "Starborns", 
 	size : 3, 
 	speed : { 
@@ -18,7 +27,7 @@ RaceList["starborn"] = {
 		text : ["Resistant to cold climates"], 
 	},
 
-	skills : ["Nature"],  
+	skills : ["Nature"],
 	age : " reach adulthood in their late teens and do nto die of old age, instead a Starborn fades after one year of no starlight ",
 	height : " range from 4 to  5.7 feet tall ",
 	weight : " weigh around 40 to 60 lb ", 
@@ -37,7 +46,7 @@ RaceList["starborn"] = {
 	},
 
 	features : { 
-		"armor of agathys" : 
+    "armor of agathys" : {
 			name : "Armor of Agathys", 
 			minlevel : 3, 
 			usages : 1, 
