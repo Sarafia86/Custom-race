@@ -1,0 +1,62 @@
+var iFileName = "Dryad.js";
+RequiredSheetVersion(13);
+
+SourceList["Hb:LD"] = {
+	name : "Homebrew: Luck dryad",
+	abbreviation : "HB:LD",
+	group : "Luck Homebrew",
+	url : "none",
+	date : "2023/01/01"
+};
+
+if (!RaceList["Dryad"]) 
+	RaceList["Dryad"] = {
+		regExpSearch : /dryad/i,
+		name : "Dryad",
+		sortname : "Dryad",
+    source : ["HB: LD", 1],
+		plural : "Dryads",
+		size : 3,
+		speed : {
+			walk : { spd : 30, enc : 20 }
+		},
+		languageProfs : ["Common", "Sylvan", "Plants"],
+		vision : [["Darkvision", 60]],
+		dmgres : ["Cold"],
+    dmgweak : ["Fire"],
+    Skill : ["Nature"],
+		age : " reach adulthood at 35. They live as long as their tree",
+		height : " range from 4 to 5ft7 feet tall ",
+		weight : " weigh extremely light",
+		scores : [0, 0, 0, 0, 1, 2],
+    trait : "Starborn (+1 Wisdom, +2 Charisma)\n\ Forestborn:\n   I have proficiency in the Nature skill:\n	 know the Druidcraft cantrip.\n   At 3rd level, I can cast the healing word spell once per long rest.\n  Charisma is my spellcasting ability for these spells.",
+		abilitySave : 6,
+		spellcastingAbility : 6,
+		spellcastingBonus : {
+			name : "Forest Born (1)",
+			spells : ["druidcraft"],
+			selection : ["druidcraft"],
+			firstCol : 'atwill'
+		},
+		features : {
+			"Healing Word" : {
+				name : "forest born (level 3)",
+				limfeaname : "Healing Word",
+				minlevel : 3,
+				usages : 1,
+				recovery : "long rest",
+				spellcastingBonus : {
+					name : "Healing word (3)",
+					spells : ["Healing Word"],
+					selection : ["Healing Word"],
+					firstCol : 'oncelr'
+					}
+				}
+			},
+		
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
